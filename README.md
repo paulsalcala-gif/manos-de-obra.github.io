@@ -22,9 +22,6 @@ Calculadora de cotizaciones para artistas y artesanos.
 
 ## Cómo instalar en Android
 
-Para que Android permita instalarla como app, lo ideal es subir la carpeta a un hosting HTTPS como Netlify, Vercel o GitHub Pages.
-
-Luego:
 
 1. Abre el link desde Chrome en Android.
 2. Toca el menú de Chrome.
