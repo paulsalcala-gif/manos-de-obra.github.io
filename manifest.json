@@ -1,0 +1,25 @@
+{
+  "name": "Manos de Obra",
+  "short_name": "Manos de Obra",
+  "description": "Calculadora de cotizaciones para artistas y artesanos.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F7EFE3",
+  "theme_color": "#B85F38",
+  "orientation": "portrait-primary",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

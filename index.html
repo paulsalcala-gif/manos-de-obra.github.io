@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#B85F38" />
+  <meta name="description" content="Manos de Obra: calculadora de cotizaciones para artistas y artesanos." />
+  <title>Manos de Obra</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="app-header">
+      <button id="backBtn" class="icon-btn hidden" type="button" aria-label="Regresar">←</button>
+      <div class="brand-mini" data-action="home">
+        <span class="brand-mark">♡</span>
+        <span>Manos de Obra</span>
+      </div>
+      <button id="installBtn" class="install-btn hidden" type="button">Instalar</button>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button class="nav-item active" data-action="home" type="button">
+        <span>⌂</span>
+        <small>Inicio</small>
+      </button>
+      <button class="nav-item" data-action="supplies" type="button">
+        <span>◈</span>
+        <small>Insumos</small>
+      </button>
+      <button class="nav-item" data-action="history" type="button">
+        <span>◷</span>
+        <small>Historial</small>
+      </button>
+      <button class="nav-item" data-action="settings" type="button">
+        <span>⚙</span>
+        <small>Ajustes</small>
+      </button>
+    </nav>
+  </div>
+
+  <template id="toastTemplate">
+    <div class="toast" role="status"></div>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
